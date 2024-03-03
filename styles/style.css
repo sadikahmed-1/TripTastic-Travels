@@ -1,4 +1,133 @@
 /* Mulish font styleeeeee */
 
-@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap')
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap');
 
+/* header styleees  */
+
+body{
+    padding: 0px 135px;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-div{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    align-items: center;
+}
+.nav-logo{
+    width: 48px;
+height: 56.008px;
+}
+.nav-title{
+    color: #131318;
+font-family: Mulish;
+font-size: 36px;
+font-weight: 800;
+vertical-align: middle;
+}
+.nav-span{
+    color: #FF5400;
+}
+
+nav > ul {
+    display: flex;
+    
+}
+
+
+nav li {
+    list-style: none;
+    margin-left: 44px;
+text-align: center;
+font-family: Mulish;
+font-size: 18px;
+}
+
+nav li a{
+    text-decoration: none;
+    color: #424247;
+}
+.first-child{
+    color: #FF5400;
+    font-weight: 700;
+}
+
+.banner{
+    background: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%) , url(../Images/Group\ 13\ \(1\)\ \(1\).png);
+    background-repeat: no-repeat;
+    width: auto;
+height: 500px;
+border-radius: 16px;
+
+}
+
+.banner-title{
+    color: #FFF;
+    text-align: center;
+font-family: Mulish;
+font-size: 64px;
+font-weight: 800;
+padding-top: 100px;
+}
+.banner-desc{
+    color: #FFF;
+text-align: center;
+font-family: Mulish;
+font-size: 16px;
+font-weight: 400;
+line-height: 26px;
+}
+.where-go{
+    width: 174px;
+height: 52px;
+border-radius: 8px;
+background: #FFF;
+border: 0px ;
+color: rgba(19, 19, 24, 0.50);
+font-family: Mulish;
+padding-left: 16px;
+
+}
+
+.icon{
+position:absolute ;
+margin-left: 140px;
+margin-top: 20px;
+color:rgb(180, 176, 172);
+}
+.search-grid{
+    display: flex;
+    gap: 24px;
+    justify-content: center;
+    border-radius: 8px;
+background: rgba(255, 255, 255, 0.30);
+padding: 16px;
+margin: 50px 128px;
+}
+.icon-flex{
+    display: flex;
+}
+
+.btn-find{
+    width: 174px;
+height: 52px;
+border-radius: 8px;
+background: #FF5400;
+border: 0px ;
+color: #FFF;
+text-align: center;
+font-family: Mulish;
+font-weight: 700;
+}
+.find-now{
+position: absolute;
+margin-left: 35px;
+margin-top: 19px;
+font-size: 18px;
+color: white;
+}

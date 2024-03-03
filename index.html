@@ -1,23 +1,58 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>TripTastic Travels</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="styles/style.css">
 </head>
+
 <body>
     <header>
         <nav>
-            <h3>TripTastic Travels</h3>
+            <div class="nav-div">
+                <img class="nav-logo" src="Images/Group 40071 (2).png" alt="">
+                <h3 class="nav-title">TripTastic <span class="nav-span">Travels</span></h3>
+            </div>
             <ul>
-                <li><a href="">Home</a></li>
+                <li><a class="first-child" href="">Home</a></li>
                 <li><a href="">Packages</a></li>
                 <li><a href="">Testimonial</a></li>
                 <li><a href="">Blog</a></li>
                 <li><a href="">Contact</a></li>
             </ul>
         </nav>
+        <div class="banner">
+            <h3 class="banner-title">Explore Your Travel</h3>
+            <p class="banner-desc">We help travelers find accomodations, plan relaxing vacations and embark on exciting
+                adventures.
+                <br>Whether you're creating, checking off, or completing your list, we can help you find vacation.
+            </p>
+            <div class="search-grid">
+                <div class="icon-flex">
+                    <input class="where-go" type="search" name="" id="" placeholder="Where go">
+                <div class="icon"><i class="fa-solid fa-angle-down"></i></div>
+                </div>
+                <div class="icon-flex">
+                    <input class="where-go" type="search" name="" id="" placeholder="When">
+                <div class="icon"><i class="fa-solid fa-angle-down"></i></div>
+                </div>
+                <div class="icon-flex">
+                    <input class="where-go" type="search" name="" id="" placeholder="Select type">
+                <div class="icon"><i class="fa-solid fa-angle-down"></i></div>
+                </div>
+                <div class="icon-flex">
+                    <div><i class="find-now fa-solid fa-magnifying-glass"></i></div>
+                    <button class="btn-find">Find Now</button>
+                
+                </div>
+            </div>
+        </div>
+
     </header>
     <main>
 
@@ -26,4 +61,5 @@
 
     </footer>
 </body>
+
 </html>
